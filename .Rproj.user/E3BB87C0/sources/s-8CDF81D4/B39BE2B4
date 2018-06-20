@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1529406852439.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2309617334",
+    "id" : "B39BE2B4",
+    "lastKnownWriteTime" : 1529408672,
+    "last_content_update" : 1529408672245,
+    "path" : "~/Desktop/Data-analysis/2_factors.R",
+    "project_path" : "2_factors.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

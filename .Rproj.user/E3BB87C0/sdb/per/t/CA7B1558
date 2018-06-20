@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "## Download data\ndownload.file(\"https://ndownloader.figshare.com/files/2292169\",\n              \"portal_data_joined.csv\")\n\n## Load data\nsurveys <- read.csv(\"data /portal_data_joined.csv\")\n\n## Examine first 6 lines\nhead(surveys)\n\n## Look at structure\nstr(surveys)\n\n## Indexing Aand subsetting  \nsurveys[1, 1]   ## first element in the first column\nsurveys[1, 6]   ## first element in the sixth coloumn \nsurveys[1:3, 7] ## first three elements in the seventh coloumn \nsurveys[ ,1]    ## all the values in the first coloumn\nsurveys[8:11, ] ## all that values in rows 8-11\n\n## task 1: create new data frame with only row 200 from surveys data\nrow200 <- surveys[200,]\nrow200\nsurveys_200 <- row200\nnrow(surveys_200)\ntail(surveys_200)\n\n## task 2: use nrow\nnrow(surveys)\nsurveys[34786,]\ntail(surveys)\nsurveys_last <- surveys[34786,]\n\nsurveys_middle <- surveys[34786/2,]\nsurveys_middle\n\nn_rows <- nrow(surveys)\nsurveys_head <- surveys[-(7:n_rows), ]\n",
+    "created" : 1529403466007.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1261873935",
+    "id" : "CA7B1558",
+    "lastKnownWriteTime" : 1529406849,
+    "last_content_update" : 1529406849643,
+    "path" : "~/Desktop/Data-analysis/1_starting_with_data.R",
+    "project_path" : "1_starting_with_data.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "## Analysing data\n\n## Installing tidyverse\ninstall.packages(\"tidyverse\")\ny\nlibrary(\"tidyverse\")\n\n",
+    "created" : 1529408675783.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2619713222",
+    "id" : "7A5409A7",
+    "lastKnownWriteTime" : 1529409179,
+    "last_content_update" : 1529409179174,
+    "path" : "~/Desktop/Data-analysis/3_data_analysis.R",
+    "project_path" : "3_data_analysis.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

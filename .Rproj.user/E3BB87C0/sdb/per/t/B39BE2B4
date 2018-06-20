@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "## Factors\n\nsex <- factor(c(\"male\", \"female\", \"female\", \"male\"))\nsex\nlevels(sex)\nnlevels(sex)\n\n## PLot of females captured aginst males\nplot(surveys$sex)\n\n##Create a subset of the sex data\nsex <- surveys$sex\nlevels(sex)\n\n## Rename labels\nlevels(sex)[1] <- \"Undetermined\"\nlevels(sex)[2] <- \"Female\"\nlevels(sex)[3] <- \"Male\"\n\nlevels(sex)\n\n## Rename both at same time\nlevels(sex)[2:3] <- c(\"Female\", \"Male\")\nlevels(sex)\n\n## Reorder the position of the factors\nsex <- factor(sex, levels=c(\"Female\", \"Male\", \"Undetermined\"))\nplot(sex)\n",
+    "created" : 1529406852439.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2309617334",
+    "id" : "B39BE2B4",
+    "lastKnownWriteTime" : 1529408672,
+    "last_content_update" : 1529408672245,
+    "path" : "~/Desktop/Data-analysis/2_factors.R",
+    "project_path" : "2_factors.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

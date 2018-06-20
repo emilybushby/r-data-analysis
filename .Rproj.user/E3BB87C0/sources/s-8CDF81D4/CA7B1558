@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1529403466007.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1261873935",
+    "id" : "CA7B1558",
+    "lastKnownWriteTime" : 1529406849,
+    "last_content_update" : 1529406849643,
+    "path" : "~/Desktop/Data-analysis/1_starting_with_data.R",
+    "project_path" : "1_starting_with_data.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
